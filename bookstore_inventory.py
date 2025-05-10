@@ -40,7 +40,7 @@ def insert_product(cursor):
     name = input("Enter book name: ").strip().title()
     quantity = int(input("Enter quantity: "))
     price = round(float(input("Enter price: ")), 2)
-    category_name = input("Enter category name").strip().lower()
+    category_name = input("Enter category name: ").strip().lower()
 
     cursor.execute("SELECT category_id FROM category WHERE LOWER(category_name) = %s", (category_name,))
     result = cursor.fetchone()
