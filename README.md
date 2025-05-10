@@ -1,7 +1,5 @@
 # Overview
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
 This is an inventory management system designed to manage and interact with a bookstore's product data using SQL relational database. This software uses Python to interact with a MySQL relational database of a hypothetical bookstore's inventory. The program allows a user to navigate through its features using a menu with options to view, search, summarize, insert, delete, and modify book inventory. 
 
 The purpose of this software is to demonstrate how to build a database with user functionality using SQL relational database and Python. 
